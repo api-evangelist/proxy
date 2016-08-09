@@ -8,8 +8,8 @@ title: 'API Proxy Tooling'
   {% for tool in site.data.tools %}
     {% if tool.tags contains 'Proxy' %}
     <tr>
-      <td align="center" valign="middle" width="160">
-        <a href="{{ tool.url }}"><img src="{{ tool.logo }}" width="150" align="left" style="padding: 15px;" /></a>
+      <td align="center" valign="middle" width="60">
+        <a href="{{ tool.url }}"><img src="{{ tool.logo }}" width="50" align="left" style="padding: 15px;" /></a>
       </td>
       <td align="left" width="75%">
         <a href="{{ tool.url }}" style="color: #000;">
@@ -21,11 +21,6 @@ title: 'API Proxy Tooling'
           <a href="{{ tool.url }}" target="_blank" title="Website">
             <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="50" />
           </a>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        <hr>
       </td>
     </tr>
     {% endif %}
