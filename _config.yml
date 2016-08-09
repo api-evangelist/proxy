@@ -1,4 +1,4 @@
-title:        API Proxies
+title:        API Proxy
 url:          http://proxy.apievangelist.com
 logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-proxy.png
 logo_width:   80
@@ -22,7 +22,7 @@ repo: proxy
 # Masthead title
 masthead_link: http://proxy.apievangelist.com
 masthead_font_size: 90
-masthead_title: '{"API Proxies"}'
+masthead_title: '{"API Proxy"}'
 
 # Feature
 feature_title: API Guide
