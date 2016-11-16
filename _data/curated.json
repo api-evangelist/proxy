@@ -206,37 +206,5 @@
 		"url": "http://blogs.splunk.com/2015/06/04/configuring-haproxy-splunk-with-rest-api-sdk-compatability/",
 		"domain": "blogs.splunk.com",
 		"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blogs-splunk-com20150604configuring-haproxy-splunk-with-rest-api-sdk-compatability.png"
-	},
-	{
-		"curated_id": "NjfiVGM4FEQ123tBrE4E4iJMnIgPQuiBINodQxq2ZGMCvLqAfhi65LU6I28frsg9HmBXgJwD4rG7f0N6sHweCwPQ117117",
-		"item_date": "2013-11-01 00:00:00",
-		"title": "API Proxy or Gateway",
-		"url": "https://blog.akana.com/api-proxy-or-gateway/",
-		"domain": "blog.akana.com",
-		"image": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/blog-soa-comapi-proxy-or-gateway.png"
-	},
-	{
-		"curated_id": "JE11627ZGsKevPtGRXZcuyHq116wjlSYKbNi1Lj3vO1JKwzgIGg116UX5dg8Zj7gfRktMEJR58z56Re7fUXPoddX1239Og117117",
-		"item_date": "2013-08-06 11:45:47",
-		"title": "John Sheehan  A Survey of the Localhost Proxying Landscape",
-		"url": "http://john-sheehan.com/blog/a-survey-of-the-localhost-proxying-landscape",
-		"domain": "john-sheehan.com",
-		"image": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/john-sheehan-combloga-survey-of-the-localhost-proxying-landscape.png"
-	},
-	{
-		"curated_id": "123G0DPj1cljuGqqQtz3KlSaWvLvu7ZihGyq3tk00nI3mw116hm116nOnEdBOpr7SxnB78cD0E0MdRKwrzPYPxJlDR123A117117",
-		"item_date": "2013-06-04 00:00:00",
-		"title": "API Management Hosted Versus Proxy Models",
-		"url": "http://blogs.informatica.com/tag/data-as-a-service/",
-		"domain": "blogs.informatica.com",
-		"image": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/9528_blog_strikeiron_com.png"
-	},
-	{
-		"curated_id": "FtkH8m0B1TXquGp8zLdaRxSLEaaZ3TjiH8vm7CMtcp2PC3Ja65pkq7lVwwapyaeII8nahdSa6CiZOCKBeqYH7g117117",
-		"item_date": "2013-03-18 12:07:34",
-		"title": "The Faade Proxy",
-		"url": "https://www.kuppingercole.com/blog",
-		"domain": "www.kuppingercole.com",
-		"image": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/6985_blogs_kuppingercole_com.png"
 	}
 ]
