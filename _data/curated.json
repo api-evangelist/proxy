@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "Yqe5rm4NJUtCEv9Ul7p116gLTkxa116eGPdq1RUYAh8oFnhLY2IC123DhhMua5UjiSx9kLhvTRu1RBj0froX116IhI8cow117117",
+		"item_date": "2017-04-20 00:00:00",
+		"title": "Getting started with Cloud IdentityAware Proxy",
+		"url": "http://cloudplatform.googleblog.com/2017/04/Getting-started-with-Cloud-Identity-Aware-Proxy.html",
+		"domain": "cloudplatform.googleblog.com",
+		"image": ""
+	},
+	{
 		"curated_id": "XKM9JoR5psqs123HH972e8ZVcINmmEtcuSu116LkJN2cRVQAgXSlZDrI2EL84A1sxDlDtGS76XZoxHZeLrfJmyrIAA117117",
 		"item_date": "2017-04-13 00:00:00",
 		"title": "How to Configure HAProxy as a Proxy and Load Balancer",
