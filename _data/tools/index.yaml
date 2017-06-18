@@ -1,18 +1,4 @@
 ---
-- slug: rest-wrapper
-  name: REST Wrapper
-  description: A library for creating JavaScript proxy objects to JSON REST APIs.&nbsp;
-    This package implements methods creating JavaScript proxy objects to JSON REST
-    APIs from definition files in a simple JSON format. A number of reference definitions
-    are also included.
-  url: https://github.com/olegp/restwrapper
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/bw-github.jpg
-  tags: JavaScript,Proxy
 - slug: hitch
   name: hitch
   description: A scalable TLS proxy by Varnish Software.
