@@ -60,9 +60,8 @@ title: API Evangelist - Proxy
 <!-- News -->
 <a name="News"></a>
 {% assign news_content = site.data.news_content.index[0] %}
-{% assign news = site.data.curated.index | sort: 'item_date' | reverse %}
-{% assign news = news | sort: 'item_date' %}
-{% assign news = news | reverse %}
+{% assign news = site.data.curated.index %}
+{% assign news = news | sort: 'item_date' | reverse %}
 <section>
 	<header>
 		<h2>{{ news_content.title }}</h2>
@@ -141,7 +140,7 @@ title: API Evangelist - Proxy
 
 <!-- Tools -->
 <a name="Tools"></a>
-{% assign approved_tags = 'API Specification,Generator,Validator,API Proxy Guide,Data Specification,Proxy Editor,Proxy Notebook,Hypermedia,IDE,Semantics,gRPC' %}
+{% assign approved_tags = 'Proxy' %}
 {% assign tool_content = site.data.tool_content.index[0] %}
 <section>
 	<header>
@@ -156,7 +155,7 @@ title: API Evangelist - Proxy
 			{% assign tagArray = tags | split: "," %}
 			{% for tag in tagArray %}
 				{% assign tag = tag | strip %}
-				{% if approved_tags contains tag and tag != site.tag %}
+				{% if approved_tags contains tag %}
 					{% if tagslist contains tag %}
 					{% else %}
 						{% if tagslist != '' %}
