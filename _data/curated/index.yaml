@@ -1,28 +1,4 @@
 ---
-- curated_id: 8b1ceb54cbb650ee045469aaa0ec7d1a
-  item_date: "2013-03-18 12:07:34"
-  title: ""
-  url: https://www.kuppingercole.com/blog
-  domain: www.kuppingercole.com
-  image: ""
-- curated_id: bda55c78f7a1c88b6aa7e8151cc4261d
-  item_date: "2013-06-04 00:00:00"
-  title: 'API Management: Hosted Versus Proxy Models'
-  url: http://blogs.informatica.com/tag/data-as-a-service/
-  domain: blogs.informatica.com
-  image: ""
-- curated_id: 56fb69e1ebb82e1e061e69f22cab5262
-  item_date: "2013-08-06 11:45:47"
-  title: 'John Sheehan : A Survey of the Localhost Proxying Landscape'
-  url: http://john-sheehan.com/blog/a-survey-of-the-localhost-proxying-landscape
-  domain: john-sheehan.com
-  image: ""
-- curated_id: a9188ca86f9ec7e2b87f484b4acc33a5
-  item_date: "2013-11-01 00:00:00"
-  title: API Proxy or Gateway?
-  url: https://blog.akana.com/api-proxy-or-gateway/
-  domain: blog.akana.com
-  image: ""
 - curated_id: bcf456b40df12c626872ca04bfa25072
   item_date: "2015-06-04 00:00:00"
   title: Configuring HAProxy  Splunk With REST API  SDK Compatability
@@ -151,5 +127,35 @@
   title: Using Charles Proxys Root SSL With Homebrew Curl
   url: https://dzone.com/articles/using-charles-proxys-root-ssl-with-homebrew-curl
   domain: dzone.com
+  image: ""
+- curated_id: 5378cbf3c26dd811b03049f30dfcd6e3
+  item_date: "2017-02-20 00:00:00"
+  title: 'SSL Proxy: Splunk  NGINX'
+  url: http://blogs.splunk.com/2017/02/20/ssl-proxy-splunk-nginx/
+  domain: blogs.splunk.com
+  image: ""
+- curated_id: 677568aa79c9be94ddd076b638747357
+  item_date: "2017-04-04 00:00:00"
+  title: Proxy Servers
+  url: http://avc.com/2017/04/proxy-servers/
+  domain: avc.com
+  image: ""
+- curated_id: 608e1559b30287b59a45f3036a50df98
+  item_date: "2017-04-13 00:00:00"
+  title: How to Configure HAProxy as a Proxy and Load Balancer
+  url: https://dzone.com/articles/how-to-configure-ha-proxy-as-a-proxy-and-loadbalan
+  domain: dzone.com
+  image: ""
+- curated_id: dd5d452f9237d6e6077d67cf3642b2b1
+  item_date: "2017-04-17 00:00:00"
+  title: 'Cloud Identity-Aware Proxy: Protect application access on the cloud'
+  url: https://cloudplatform.googleblog.com/2017/04/Cloud-Identity-Aware-Proxy-protect-application-access-on-the-cloud.html
+  domain: cloudplatform.googleblog.com
+  image: ""
+- curated_id: c92394ea4595a9d5d2895362a20a9f3d
+  item_date: "2017-04-20 00:00:00"
+  title: Getting started with Cloud Identity-Aware Proxy
+  url: http://cloudplatform.googleblog.com/2017/04/Getting-started-with-Cloud-Identity-Aware-Proxy.html
+  domain: cloudplatform.googleblog.com
   image: ""
 ...
