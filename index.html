@@ -169,7 +169,7 @@ title: API Evangelist - Proxy
 
 		{% assign tagArray = tagslist | split: "," %}
 		{% assign tagArray = tagArray | sort: %}
-
+		tagArray: {{ tagArray }}<br />
 		{% for tag in tagArray %}
 			<h3>{{ tag }}</h3>
 			<div class="features">
