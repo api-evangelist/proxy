@@ -147,7 +147,7 @@ title: API Evangelist - Proxy
 	</header>
 		{% assign tools = site.data.tools.index %}
 		{% assign tagslist = '' %}
-
+		tools: {{ tools }}<br />
 		{% for tool in tools %}
 			{% assign tags = tool.tags %}
 			{% assign tagArray = tags | split: "," %}
