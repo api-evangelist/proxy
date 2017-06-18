@@ -1,2 +1,15 @@
---- []
+---
+- slug: kong
+  name: kong
+  description: >-
+    :monkey: The Open-Source API Gateway and Microservice Management Layer,
+    built on NGINX
+  url: 'https://github.com/Mashape/kong'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'GitHub,Management,Deployment,General'
 ...
