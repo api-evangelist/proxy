@@ -196,4 +196,16 @@
   url: https://www.tibco.com/blog/?p=37700
   domain: www.tibco.com
   image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_15dd3827764:edf:6c0c5382
+  item_date: "2017-08-11 15:55:27"
+  title: Putting Your Lambda In A VPC
+  url: https://medium.com/p/efb80695b32
+  domain: medium.com
+  image: ""
+- curated_id: aTKLPW9AeQAh09DpOW/0/mK2tQUNNgIyAi3xy7MVsb4=_15df7eb0dee:17fbb74:bd5def64
+  item_date: "2017-08-18 11:33:00"
+  title: Programmable Proxies are the Duct Tape of the Internet
+  url: https://f5.com/about-us/blog/articles/programmable-proxies-are-the-duct-tape-of-the-internet-26963#.WZG2jjIr-Mk.twitter
+  domain: f5.com
+  image: ""
 ...
