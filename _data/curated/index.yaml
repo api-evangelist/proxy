@@ -256,4 +256,10 @@
   url: https://dzone.com/articles/2242544
   domain: dzone.com
   image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_16494ae2f7a:442c88:e8d3bdb3
+  item_date: "2018-07-11 20:01:06"
+  title: Writing a Reverse Proxy in just one line with Go
+  url: https://medium.com/p/c1edfa78c84b
+  domain: medium.com
+  image: ""
 ...
