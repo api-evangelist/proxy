@@ -262,4 +262,11 @@
   url: https://medium.com/p/c1edfa78c84b
   domain: medium.com
   image: ""
+- curated_id: b4xX282kQ9FAxkxcTTl6litd4bsIad1WXC3AOIleGAM=_166e431a1b1:1048c94:d42b93be
+  item_date: "2018-11-05 06:00:43"
+  title: "Connecting Multiple OpenShift SDNs with a Network Tunnel \u2013 part 2:
+    Service Proxying and Discovery"
+  url: https://blog.openshift.com/?p=18728
+  domain: blog.openshift.com
+  image: ""
 ...
