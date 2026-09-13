@@ -1,0 +1,11 @@
+related:
+- name: API Proxies
+  url: https://api-proxies.apievangelist.com
+  icon: https://api-proxies.apievangelist.com/icon.png
+  description: An index and topic collection covering reverse-proxy and edge-proxy software used in front
+    of APIs, including HTTP reverse proxies, edge proxies, load balancers, caching proxies,…
+- name: Scraping
+  url: https://scraping.apievangelist.com
+  icon: https://scraping.apievangelist.com/icon.png
+  description: An index and topic collection covering web scraping platforms, proxy networks, SERP APIs,
+    browser-based extraction services, and data collection APIs. Scraping platforms turn the…

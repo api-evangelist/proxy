@@ -1,0 +1,95 @@
+meta:
+  name: Proxy
+  description: This is the index of API proxy, reverse proxy, forward proxy, and proxy
+    middleware service and tooling repos being tracked by the API Evangelist network.
+  tags:
+  - Index
+  - Proxy
+  portal: null
+  github: https://github.com/api-evangelist
+  repo: proxy
+services_tools:
+- name: Apache HTTP Server
+  repo: https://github.com/api-evangelist/apache-httpd
+  apisio: https://providers.apis.io/providers/apache-httpd/
+- name: Caddy
+  repo: https://github.com/api-evangelist/caddy
+  apisio: https://providers.apis.io/providers/caddy/
+- name: Charles Proxy
+  repo: https://github.com/api-evangelist/charles-proxy
+  apisio: https://providers.apis.io/providers/charles-proxy/
+- name: Dev Proxy
+  repo: https://github.com/api-evangelist/dev-proxy
+  apisio: https://providers.apis.io/providers/dev-proxy/
+- name: Envoy
+  repo: https://github.com/api-evangelist/envoy
+  apisio: https://providers.apis.io/providers/envoy/
+- name: Fiddler
+  repo: https://github.com/api-evangelist/fiddler
+  apisio: https://providers.apis.io/providers/fiddler/
+- name: frp
+  repo: https://github.com/api-evangelist/frp
+  apisio: https://providers.apis.io/providers/frp/
+- name: GoReplay
+  repo: https://github.com/api-evangelist/goreplay
+  apisio: https://providers.apis.io/providers/goreplay/
+- name: HAProxy
+  repo: https://github.com/api-evangelist/haproxy
+  apisio: https://providers.apis.io/providers/haproxy/
+- name: Lunar.dev
+  repo: https://github.com/api-evangelist/lunar-dev
+  apisio: https://providers.apis.io/providers/lunar-dev/
+- name: mitmproxy
+  repo: https://github.com/api-evangelist/mitmproxy
+  apisio: https://providers.apis.io/providers/mitmproxy/
+- name: Moesif
+  repo: https://github.com/api-evangelist/moesif
+  apisio: https://providers.apis.io/providers/moesif/
+- name: NGINX
+  repo: https://github.com/api-evangelist/nginx
+  apisio: https://providers.apis.io/providers/nginx/
+- name: oauth2-proxy
+  repo: https://github.com/api-evangelist/oauth2-proxy
+  apisio: https://providers.apis.io/providers/oauth2-proxy/
+- name: Pomerium
+  repo: https://github.com/api-evangelist/pomerium
+  apisio: https://providers.apis.io/providers/pomerium/
+- name: Privoxy
+  repo: https://github.com/api-evangelist/privoxy
+  apisio: https://providers.apis.io/providers/privoxy/
+- name: Proxyman
+  repo: https://github.com/api-evangelist/proxyman
+  apisio: https://providers.apis.io/providers/proxyman/
+- name: Resurface
+  repo: https://github.com/api-evangelist/resurface
+  apisio: https://providers.apis.io/providers/resurface/
+- name: SafeLine
+  repo: https://github.com/api-evangelist/safeline
+  apisio: https://providers.apis.io/providers/safeline/
+- name: Sozu
+  repo: https://github.com/api-evangelist/sozu
+  apisio: https://providers.apis.io/providers/sozu/
+- name: Speedscale
+  repo: https://github.com/api-evangelist/speedscale
+  apisio: https://providers.apis.io/providers/speedscale/
+- name: Squid
+  repo: https://github.com/api-evangelist/squid
+  apisio: https://providers.apis.io/providers/squid/
+- name: Tinyproxy
+  repo: https://github.com/api-evangelist/tinyproxy
+  apisio: https://providers.apis.io/providers/tinyproxy/
+- name: Traefik
+  repo: https://github.com/api-evangelist/traefik
+  apisio: https://providers.apis.io/providers/traefik/
+- name: Treblle
+  repo: https://github.com/api-evangelist/treblle
+  apisio: https://providers.apis.io/providers/treblle/
+- name: Varnish Cache
+  repo: https://github.com/api-evangelist/varnish
+  apisio: https://providers.apis.io/providers/varnish/
+- name: Whistle
+  repo: https://github.com/api-evangelist/whistle
+  apisio: https://providers.apis.io/providers/whistle/
+features: []
+use_cases: []
+integrations: []

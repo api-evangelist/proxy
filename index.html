@@ -1,0 +1,86 @@
+---
+layout: default
+---
+{% include hero.html %}
+
+<main class="container py-5">
+
+  <!-- Services & Tools -->
+  <section class="mb-5">
+    <h2 class="section-title mb-3"><span class="material-symbols-outlined">handyman</span>Services &amp; Tools</h2>
+    {% if site.data.area.services_tools.size == 0 %}<p class="text-muted small">No network properties listed yet.</p>{% endif %}
+    <div class="list-group">
+      {% for s in site.data.area.services_tools %}
+      <div class="list-group-item d-flex align-items-center justify-content-between flex-wrap gap-2">
+        <span class="d-flex align-items-center">
+          <span class="material-symbols-outlined me-2 text-emphasis">handyman</span>
+          <span class="fw-semibold">{{ s.name | escape }}</span>
+        </span>
+        <span class="d-flex align-items-center gap-2">
+          {% if s.repo %}<a class="btn btn-sm btn-outline-secondary" href="{{ s.repo }}" target="_blank" rel="noopener"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> Repo</a>{% endif %}
+          {% if s.apisio %}<a class="btn btn-sm btn-outline-success" href="{{ s.apisio }}" target="_blank" rel="noopener"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">link</span> APIs.io</a>{% endif %}
+        </span>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  {% if site.data.area.features.size > 0 %}
+  <!-- Common Features -->
+  <section class="mb-5">
+    <h2 class="section-title mb-3"><span class="material-symbols-outlined">extension</span>Common Features</h2>
+    <div class="row g-3">
+      {% for f in site.data.area.features %}
+      <div class="col-md-6"><div class="card h-100"><div class="card-body">
+        <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">extension</span>{{ f.name | escape }}</h3>
+        <p class="text-muted small mb-0">{{ f.description | escape }}</p>
+      </div></div></div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if site.data.area.use_cases.size > 0 %}
+  <!-- Use Cases -->
+  <section class="mb-5">
+    <h2 class="section-title mb-3"><span class="material-symbols-outlined">task_alt</span>Use Cases</h2>
+    <div class="row g-3">
+      {% for u in site.data.area.use_cases %}
+      <div class="col-md-6"><div class="card h-100"><div class="card-body">
+        <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">task_alt</span>{{ u.name | escape }}</h3>
+        <p class="text-muted small mb-0">{{ u.description | escape }}</p>
+      </div></div></div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if site.data.area.integrations.size > 0 %}
+  <!-- Integrations -->
+  <section class="mb-5">
+    <h2 class="section-title mb-3"><span class="material-symbols-outlined">integration_instructions</span>Integrations</h2>
+    <div class="row g-3">
+      {% for i in site.data.area.integrations %}
+      <div class="col-md-6"><div class="card h-100"><div class="card-body">
+        <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">integration_instructions</span>{{ i.name | escape }}</h3>
+        <p class="text-muted small mb-0">{{ i.description | escape }}</p>
+      </div></div></div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- Latest API Stories -->
+  <section class="mb-5">
+    <h2 class="section-title mb-3"><span class="material-symbols-outlined">article</span>Latest API Stories</h2>
+    {% assign stories = site.api_stories | sort: "published" | reverse %}
+    <p class="text-muted small">Most recent stories relevant to {{ site.data.area.meta.name | escape }}, pulled from across the API Evangelist network blog feeds.</p>
+    <div>
+      {% for st in stories limit: 25 %}{% include story-item.html story=st %}{% endfor %}
+    </div>
+    {% if stories.size > 25 %}
+    <div class="mt-3"><a href="/stories/" class="btn btn-outline-success btn-sm">View all {{ stories.size }} stories →</a></div>
+    {% endif %}
+  </section>
+
+</main>
