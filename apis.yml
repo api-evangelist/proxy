@@ -1,5 +1,6 @@
 aid: proxy
 name: Proxy
+kind: topic
 description: >-
   This is the index of API proxy, reverse proxy, forward proxy, and proxy middleware service and tooling repos being tracked by the API Evangelist network.
 type: Index
