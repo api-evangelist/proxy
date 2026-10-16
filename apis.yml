@@ -28,6 +28,12 @@ apis:
       - type: GettingStarted
         url: https://apievangelist.com/
 common:
+  - type: Plans
+    url: plans/proxy-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/proxy-rate-limits.yml
+  - type: FinOps
+    url: finops/proxy-finops.yml
   - type: Website
     url: https://apievangelist.com/
   - type: Documentation
